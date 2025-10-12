@@ -314,15 +314,6 @@ assign red = r_is_max && s_is_ok;
 |                 | 1         | result[1] == 1      | 'GOOD'     |
 |                 | 2         | result[2] == 1      | 'PERFECT'  |
 
-| 수신 문자열 | FSM 제어 신호 |
-|:---------:|:------------:|
-|'g'        | uart_sig = 1 |
-|'s'        | uart_sig = 2 |
-|'p'        | uart_sig = 1 |
-|'f'        | uart_sig = 1 |
-|'t'        | uart_sig = 1 |
--->
-
 | 수신 문자열 | FSM 제어 신호 | 의미 / 트리거     |
 |:---------:|:------------:|:----------------:|
 |'g'        | uart_sig = 1 | golden 음악 선택  |
@@ -330,6 +321,7 @@ assign red = r_is_max && s_is_ok;
 |'p'        | uart_sig = 1 | 게임 카운트 종료   |
 |'f'        | uart_sig = 1 | 점수 표시 완료     |
 |'t'        | uart_sig = 1 | 게임 종료         | 
+-->
 
 Uart Sender FSM| tx | rx
 --|--|--
