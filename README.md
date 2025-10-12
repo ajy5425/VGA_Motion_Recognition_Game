@@ -325,7 +325,7 @@ assign red = r_is_max && s_is_ok;
 
 Uart Sender FSM| tx | rx
 --|--|--
-<img src="/History/img/hw/img_54.png" width=400 >|<img src="/History/img/hw/img_55.png" width=400 > | <img src="/History/img/hw/img_56.png" width=400 > 
+<img src="/History/img/hw/img_54.png" width=400 >|<img src="/History/img/hw/img_55.png" width=400 > | <img src="/History/img/hw/img_56_1.png" width=400 > 
 
 <!--
 
